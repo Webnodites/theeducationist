@@ -1,0 +1,17 @@
+User-agent: * 
+Disallow: /new-campuskit
+Disallow: /cisco-resources
+Disallow: /styling-page
+Disallow: /login
+Disallow: /login-admin
+Disallow: /webinars
+Disallow: /integration
+Disallow: /marketing-elements/
+Disallow: /cisco-resources-videos/
+Disallow: /cisco-resource-documents/
+Disallow: /category/
+Disallow: /webinar-categories/
+Disallow: /webinars/
+
+Sitemap: https://www.involvio.com/sitemap.xml
+
