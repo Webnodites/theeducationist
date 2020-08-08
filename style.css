@@ -657,7 +657,7 @@ h1 {
 }
 .overlap-container {
     width: 100%;
-    max-width: 1268px;
+    max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 100px;
@@ -672,7 +672,7 @@ h1 {
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 1220px;
+    max-width: 1350px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 40px;
@@ -813,7 +813,7 @@ h4, h5, p {
     border-style: none;
 }
 .service__icon {
-    height: 64px;
+    height: 128px;
     margin-bottom: 32px;
 }
 .service__heading {
@@ -1080,7 +1080,7 @@ h2, h3, h4, h5 {
     display: flex;
     overflow: auto;
     padding-bottom: 30px;
-    padding-left: 40px;
+    padding-left: 200px;
 }
 .product__carousel, .product__link-card {
     display: -webkit-box;
