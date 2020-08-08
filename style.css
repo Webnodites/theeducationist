@@ -381,7 +381,7 @@ img {
     display: inline-block;
     margin-right: 40px;
     color: #083741;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
 }
 .text-btn {
@@ -1050,9 +1050,7 @@ h2, h3, h4, h5 {
 .feature-heading {
     color: #083741;
 } 
-ul{
-        list-style: none;
-}
+
 .row.justify-center {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
