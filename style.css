@@ -588,7 +588,7 @@ h1 {
 }
 .page-subtitle {
     margin-bottom: 40px;
-    font-size: 24px;
+    font-size: 40px;
     line-height: 1.58;
     font-weight: 300;
     letter-spacing: -1px;
@@ -1429,7 +1429,7 @@ a {
 }
 .footer__heading {
     color: #083741;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.25;
     letter-spacing: -1px;
 }
@@ -2291,4 +2291,6 @@ a {
     z-index: 2000;
     display: block;
     cursor: pointer;
-}
+}}
+
+
