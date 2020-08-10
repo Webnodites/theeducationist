@@ -79,7 +79,7 @@
 .hero {
     width: 100%;
     height: 500px;
-       background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(../images/bg.jpg);
+       background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url();
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -117,12 +117,52 @@
 
  .about_img1{
   height: 100%;
-  background: url(../images/logos/educationist1.png);
+  background: url(../images/supergroup/Educationist_sutra.png);
   background-size: cover;
       display: flex;
   justify-content: center;
   align-items: flex-end;
-      padding-bottom: 30px;
+      padding-bottom: 0px;
+  border-width: 1px;
+  border-style: solid;
+  
+
+}
+.about_img2{
+  height: 100%;
+  background: url(../images/supergroup/TESOS.png);
+  background-size: cover;
+      display: flex;
+  justify-content: center;
+  align-items: flex-end;
+      padding-top: 0px;
+  border-width: 1px;
+  border-style: solid;
+  
+}
+
+.about_img3{
+  height: 100%;
+  background: url(../images/supergroup/TESOEC.png);
+  background-size: cover;
+      display: flex;
+  justify-content: center;
+  align-items: flex-end;
+      padding-bottom: 0px;
+  border-width: 1px;
+  border-style: solid;
+  
+
+}
+
+.about_img4{
+  height: 100%;
+  background: url(../images/supergroup/TESLTD.png);
+  background-size: cover;
+      display: flex;
+  justify-content: center;
+  align-items: flex-end;
+      padding-bottom: 0px;
   border-width: 1px;
   border-style: solid;
   
@@ -143,6 +183,32 @@ background-color: rgba(0,0,0,0.7);
       padding-top: 128px;
       padding-bottom: 119px
   }
+
+  .about_img2 .overlay1 {
+    background-color: rgba(0,0,0,0.7);
+        text-align: center;
+        z-index: 98;
+        padding-top: 128px;
+        padding-bottom: 119px
+    }
+
+    .about_img3 .overlay1 {
+      background-color: rgba(0,0,0,0.7);
+          text-align: center;
+          z-index: 98;
+          padding-top: 128px;
+          padding-bottom: 119px
+      }
+      
+      .about_img4 .overlay1 {
+        background-color: rgba(0,0,0,0.7);
+            text-align: center;
+            z-index: 98;
+            padding-top: 128px;
+            padding-bottom: 119px
+        }
+        
+    
   
 
  
@@ -577,20 +643,6 @@ padding-top:40px;
 
 
 
-.about_img2{
-    height: 350px;
-    background-image: url(../images/why2.jpeg);
-    background-size: cover;
-    
- }
-
-.about_img2 .overlay2 {
-    background-color: rgba(0,0,0,0.7);
-    text-align: center;
-    z-index: 98;
-    padding-top: 114px;
-    padding-bottom: 131px
-}
 
  
 /*
@@ -600,12 +652,6 @@ padding-top:40px;
 background-color: rgba(24, 63, 136, 0.1);
 
  }*/
-
-.about_img2 h2{
-    color: #fff;
-    font-size: 30px;
-    padding-top: 35%;
-}
 
 
 
@@ -1717,6 +1763,18 @@ margin-bottom: 11px;
     height: 420px;
     margin-bottom: 30px;
 }
+.about_img2{
+  height: 420px;
+  margin-bottom: 30px;
+}
+.about_img3{
+  height: 420px;
+  margin-bottom: 30px;
+}
+.about_img4{
+  height: 420px;
+  margin-bottom: 30px;
+}
 .about_img2 .overlay2 {
     padding-bottom: 159px;
 }
@@ -2104,6 +2162,21 @@ padding: 20px;
   margin-top: 27px;
 }
 
+.about_img2{
+  height:270px;
+  margin-top: 27px;
+}
+
+.about_img3{
+  height:270px;
+  margin-top: 27px;
+}
+
+.about_img4{
+  height:270px;
+  margin-top: 27px;
+}
+
 .about_img .overlay1 {
 
     padding-top:62px;
@@ -2111,6 +2184,24 @@ padding: 20px;
 }
 
 .about_img1 .overlay1 {
+
+  padding-top:62px;
+  padding-bottom: 57px;
+}
+
+.about_img2 .overlay1 {
+
+  padding-top:62px;
+  padding-bottom: 57px;
+}
+
+.about_img3 .overlay1 {
+
+  padding-top:62px;
+  padding-bottom: 57px;
+}
+
+.about_img4 .overlay1 {
 
   padding-top:62px;
   padding-bottom: 57px;
