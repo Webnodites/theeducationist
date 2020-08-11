@@ -8321,7 +8321,7 @@ h1, h2, h3, h4, h5,
       color: #206dfb;
       outline: none !important; }
   .ftco-navbar-light.scrolled {
-    position: fixed;
+    position: relative;
     right: 0;
     left: 0;
     top: 0;
