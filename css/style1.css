@@ -3498,3 +3498,25 @@ border-radius: 5px;
 #services .section{
   padding: 50px 0;
 } 
+
+.form-sec h6{
+  font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+.form-sec input[type="submit"]{ 
+color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    padding: 5px 25px;
+    border-radius: 25px;
+    background-color: transparent;
+  }
+  .form-sec input[type="submit"]:focus{
+    outline: none;
+  }
+  .form-sec .form-control{
+    font-size: 12px;
+  }
