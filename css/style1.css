@@ -3462,6 +3462,8 @@ border-radius: 5px;
 .feature-img-wrapper img{
 
   width: 100%;
+  border-style: solid;
+  border-width: 1px;
 }
 .feature-img {
     margin-top: 0;
