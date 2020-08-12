@@ -118,7 +118,7 @@
  .about_img1{
   height: 100%;
   background: url(../images/supergroup/Educationist_sutra.png);
-  background-size: 100%;
+  background-size: cover;
       display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -129,9 +129,9 @@
 
 }
 .about_img2{
-  height: 62.5vh;
+  height: 100%;
   background: url(../images/supergroup/TESOS.png);
-  background-size: 100%;
+  background-size: cover;
       display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -142,9 +142,9 @@
 }
 
 .about_img3{
-  height: 62.5vh;
+  height: 100%;
   background: url(../images/supergroup/TESOEC.png);
-  background-size: 100%;
+  background-size: cover;
       display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -156,9 +156,9 @@
 }
 
 .about_img4{
-  height: 62.5vh;
+  height: 100%;
   background: url(../images/supergroup/TESLTD.png);
-  background-size: 100%;
+  background-size: cover;
       display: flex;
   justify-content: center;
   align-items: flex-end;
