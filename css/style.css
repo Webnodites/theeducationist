@@ -236,7 +236,7 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color; }
 
 input,
-button,
+
 select,
 optgroup,
 textarea {
@@ -8195,10 +8195,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #000000; }
+  color: #ffffff; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
