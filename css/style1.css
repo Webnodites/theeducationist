@@ -110,7 +110,7 @@
 
  .about_img1{
   height: 100%;
-  background: url(../images/supergroup/Educationist_sutra.png);
+  background: url(../images/supergroup/educationist1.png);
   background-size: cover;
       display: flex;
   justify-content: center;
@@ -244,17 +244,32 @@ background-color: rgba(24, 63, 136, 0.1);
 }
 
 .about-text{
-    background-image: url(../images/bg-12.jpeg);
+    background-image: url(../images/why2.jpeg);
     background-size: cover;
     height: 100%;
     
 }
 
 .about-text1{
-  background-image: url(../images/text-bg.jpeg);
+  background-image: url(../images/1why.jpeg);
   background-size: cover;
   height: 100%;
   
+}
+
+.about-text3{
+  background-image: url(../images/bg-12.jpeg);
+  background-size: cover;
+  height: 100%;
+  
+}
+
+.about-text3 p{
+   
+  color: #fff;
+  font-size: 15px;
+  text-align: justify;
+  padding: 40px;
 }
 
 /*.about-text .overlay1 {
