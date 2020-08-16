@@ -3,7 +3,7 @@
 .mini-header {
     
     font-size: 16px;
-    background-color: #FF5200;
+    background-color: #0F1231;
     color: #fff;
    padding-top: 9px;
    height:50px;
@@ -59,14 +59,6 @@
 
 }
 
- 
-
-
-.navbar-brand_ab img{
-  
-  
-    
-}
 
 
 
@@ -80,7 +72,7 @@
 .hero {
     width: 100%;
     height: 520px;
-       background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../images/logos/Background2.png);
+       background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../images/logos/educationist\ logo2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -841,7 +833,7 @@ color: white;
     position: relative;
     width:100%;
     position: relative;
-    background:#261649;
+    background:#0F1231;
    display: flex;
     align-items: center;
     justify-content: center;
@@ -2255,7 +2247,7 @@ height: 414px!important;
 }
 
 .mini-header {
-    font-size: 11px;
+    font-size: 10px;
     padding-top:16px;
 }
 
@@ -2812,7 +2804,7 @@ color: #000000;}
   to { transform: rotateY(360deg); }
 }
 */
-.footerr{background-color:#002c61f5!important;}
+.footerr{background-color:#012148!important;}
 .footerr .foot_marg{padding-top:40px !important;padding-bottom: 20px;text-align: left; }
 .footerr_style ul{list-style-type: none;}
 .footerr_style ul li a{list-style-type:none;color:#fff;font-size: 15px;text-decoration: none;}
@@ -2994,7 +2986,7 @@ border-radius: 5px;
 @media only screen and (max-width:992px){.witebox{height:238px!important;}.witebox1{height:238px!important;}}
 
 .witebox{
-        background-color: rgb(0, 2, 129);
+        background-color: rgb(31, 33, 100);
         border-color: black;
         border-radius: 8px;
         margin-right:20px;
