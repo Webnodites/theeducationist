@@ -1818,7 +1818,7 @@ margin-bottom: 11px;
 }
 
 .mini-header {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 
@@ -3519,4 +3519,22 @@ border-radius: 5px;
   .footerr ul{
     padding: 0;
   }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 300px){
+  .header-contact{
+        padding: 0px 5px;
+  }
+  .header-contact>span:first-child {
+    padding-right: 5px;
+  }
+  .header-social > ul > li {
+    padding-right: 5px;
+}
+}
+@media only screen and (max-width: 400px){
+  .mini-header {
+    font-size: 8px;
+}
+
 }
