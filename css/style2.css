@@ -50,6 +50,12 @@ padding-right:20px;
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+
+  @media (min-width: 1200px){
+  .cont1 {
+      max-width: 1225px;
+  }
+  }
 @media only screen and (max-width:767px){
 	.first {margin-top:40px;}
 	.second {margin-top: 80px;}
@@ -521,5 +527,9 @@ font-size: 19px;}
       margin-bottom: 99px;
     }
 
-*/
 
+@media (min-width: 1200px){
+.cont1 {
+    max-width: 1225px;
+}
+}

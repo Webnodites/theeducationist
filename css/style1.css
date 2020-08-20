@@ -3034,7 +3034,9 @@ border-radius: 5px;
   font-size: 30px;
   color:#000;
 }
-
+.area{
+  color: black;
+}
 
 .read-more-btn{background-color:transparent;border:solid 2px #0F1231;color: #0F1231!important}
 
@@ -3544,5 +3546,10 @@ border-radius: 5px;
 @media only screen and (max-width: 330px){
   .mini-header {
     font-size: 7px;
+}
+}
+@media only screen and (min-width: 1200px){
+.cont1 {
+    max-width: 1225px;
 }
 }
