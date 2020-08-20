@@ -263,8 +263,20 @@ background-color: rgba(24, 63, 136, 0.1);
   height: 100%;
   
 }
+.about-text6{
+  background-image: url(../images/tes2.png);
+  background-size: cover;
+  height: 100%;
+}
 
 .about-text3 p{
+   
+  color: #fff;
+  font-size: 15px;
+  text-align: justify;
+  padding: 40px;
+}
+.about-text6 p{
    
   color: #fff;
   font-size: 15px;
@@ -831,6 +843,9 @@ padding: 25px 0;
     border-radius: 25px;
     color: white;
 }
+.team-button5{
+  padding: 200px 0;
+  }
 
 .team-button2{
   padding: 25px 0;
@@ -3528,6 +3543,21 @@ border-radius: 5px;
     border-radius: 3px;
 }
 
+.heading1
+{
+  font-family:'Bookman Old Style', sans-serif;
+  margin-top: 2%;
+  font-size: 70px;
+  font-weight: 600;
+  color: #1F2164;
+}
+.heading2
+{
+  font-family:'Bookman Old Style', sans-serif;
+  margin-top: 2%;
+  font-size: 40px;
+}
+
 @media only screen and (max-width: 767px) and (min-width: 300px){
   .header-contact{
         padding: 0px 5px;
@@ -3537,6 +3567,23 @@ border-radius: 5px;
   }
   .header-social > ul > li {
     padding-right: 5px;
+}
+.heading1
+{
+  font-family:'Bookman Old Style', sans-serif;
+  margin-top: 2%;
+  font-size: 35px;
+}
+.heading2
+{
+  font-family:'Bookman Old Style', sans-serif;
+  margin-top: 2%;
+  font-size: 40px;
+}
+.about-text6{
+  background-image: url(../images/tes3.png);
+  width: auto;
+  height: 100%;
 }
 }
 @media only screen and (max-width: 400px){
@@ -3550,6 +3597,8 @@ border-radius: 5px;
 }
 @media only screen and (min-width: 1200px){
 .cont1 {
-    max-width: 1225px;
+  max-width: 1225px;
+}
+
 }
 }
