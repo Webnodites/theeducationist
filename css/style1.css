@@ -3582,8 +3582,9 @@ border-radius: 5px;
 }
 .about-text6{
   background-image: url(../images/tes3.png);
-  width: auto;
+  background-size: cover;
   height: 100%;
+  width: auto;
 }
 }
 @media only screen and (max-width: 400px){
