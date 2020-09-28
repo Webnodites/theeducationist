@@ -56,6 +56,9 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <link rel="shortcut icon" type="image/ico" href="images/fav.png" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        #more {display: none;}
+        </style>
   </head>
 <body>
  <!-- MINI HEADER --> 
@@ -322,7 +325,7 @@
         <div class="row home-feature-row reverse-on-sm">
           <div class="col col-12 col-md-4 col-sm-12">
             <div class="feature-img-wrapper">
-                <img src="images/supergroup/Educationist_sutra.png" sizes="(max-width: 479px) 90vw, (max-width: 767px) 360px, (max-width: 991px) 45vw, 37vw" data-w-id="10ba5662-516e-a67b-8c74-318d3025f65d" style="opacity: 1;" alt="" class="feature-img">
+                <img src="images/supergroup/Educationist_sutra.jpeg" sizes="(max-width: 479px) 90vw, (max-width: 767px) 360px, (max-width: 991px) 45vw, 37vw" data-w-id="10ba5662-516e-a67b-8c74-318d3025f65d" style="opacity: 1;" alt="" class="feature-img">
 
               <div style="margin-top: 10px;">
               <a href="https://www.linkedin.com/company/theeducationistsutra/" class="hver" style=" margin-right:10px;" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
@@ -470,11 +473,13 @@
               <div data-w-id="f1d20152-95d0-2214-7463-d4e00c67498d" style="opacity:1" class="feature-block small right">
                 <h3>Institute of Ideation Research Innovation and Incubation Studies – IIRIIS</h3>
                 <div class="feature-block-indent small">
-                  <p>
-                    Institute of Ideation, Research, Innovation and Incubation Studies – IIRIIS was 
-                    incepted as a concept to develop budding engineers, managers, lawyers and every other professional 
-                    in their long endeavour by helping them achieve their dreams. The institute constitutes multiple verticals 
-                    handpicked for the various challenges that may be faced by young Inventors and Entrepreneurs in their inspired path.</p>
+                    <p>Institute of Ideation, Research, Innovation and Incubation Studies – referred as IIRIIS (as in Iris) – is an edification model conceptualized for the personal & professional development of the scholars<span id="dots">..</span><span id="more">and faculty members associated with research domain, where they are provided with expert help, support and backing, so that they can realize their dreams and convert them from a bare concept to an actuality.<br>IIRIIS expertise in bringing-in together the best of the minds in the areas of science and commerce to strengthen different research verticals associated with domains like medical, engineering, management, law, psychology, etc. and strives to offer several solutions, customised as per the challenges faced by young scientists, inventors and innovators.<br>
+                        IIRIIS encourages, promotes and supports the ideology of nation building by being self-reliant, self-dependent and self-sufficient, therefore helps new-age entrepreneurs in their business ideas, concepts or endeavours, by partnering with them for a prosperous future.
+                        </span></p>
+                    
+                    <div class="readmore">
+                        <button class="readmore btn" onclick="myFunction()" id="myBtn">Read more</button>
+                    </div>
                   <span style="font-size: 16px; color:black;"> Areas of Operations: </span>
                   <ul style="font-size: 14px;" class="area">
                         <li>Ideation</li>
@@ -729,6 +734,24 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
 
 <script type="text/javascript">
     function myfun()
